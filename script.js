@@ -34,7 +34,7 @@ function calculate() {
             <ul>
                 <li><strong>Eat more frequently:</strong> Eat 5–6 smaller meals throughout the day, and try to plan times to eat even if you aren't hungry.</li>
                 <li><strong>Choose nutritious foods:</strong> Eat foods that are high in calories, protein, vitamins, and minerals. You can add extras to your dishes like cheese, nut butter, or dry milk.</li>
-                <li><strong>Exercise:</strong> Exercise, especially strength training, can help you build muscle and increase your appetite.</li>
+                <li><strong>Exercise:</strong> Exercise, especially strength training, can help you increase your appetite.</li>
                 <li><strong>Avoid junk food:</strong> Avoid foods with a lot of added sugar, fat, and salt, like cakes, takeaway foods, and sugary drinks.</li>
                 <li><strong>Drink enough water:</strong> Drink at least 6–8 glasses of water every day to hydrate your skin and help your body flush out junk.</li>
                 <li><strong>Talk to a doctor:</strong> A doctor or nurse can help you create a healthy eating plan and determine how quickly you should gain weight.</li>
