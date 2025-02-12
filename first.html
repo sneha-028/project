@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('background.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo" class="logo">
+    </div>
+    <div style="text-align: right;">
+        <button id="themeToggle" onclick="toggleTheme()">Dark Mode</button>
+    </div>
+    <div class="container1">
+        <img src="illustration.png" alt="Left Image" class="side-image left">
+        
+        <div class="main-content">
+            <h1>BMI Calculator</h1>
+            <div class="box">
+                <p>Body Mass Index (BMI) is a widely used metric that assesses an individual's body weight relative to their height...</p>
+            </div>
+
+            <div class="box image-box">
+                <img src="bmiChart.jpg" alt="BMI Illustration">
+            </div>
+
+            <div class="box category-box">
+                <h2 style="text-align: center;">BMI Categories</h2>
+                <ul class="bmi-categories">
+                    <li><strong>Underweight:</strong> BMI less than 18.5</li>
+                    <li><strong>Normal weight:</strong> BMI 18.5 to 24.9</li>
+                    <li><strong>Overweight:</strong> BMI 25.0 to 29.9</li>
+                    <li><strong>Obesity:</strong>
+                        <ul class="sub-list">
+                            <li>Class 1 (Moderate obesity): BMI 30.0 to 34.9</li>
+                            <li>Class 2 (Severe obesity): BMI 35.0 to 39.9</li>
+                            <li>Class 3 (Very severe or morbid obesity): BMI 40.0 and above</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>These categories help assess potential health risks associated with weight...</p>
+            </div>
+
+
+            <div class="box articles-box">
+                <h2 style="text-align: center;">Helpful Articles</h2>
+                <ul class="article-links">
+                    <p><a href="https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight" target="_blank">WHO: Obesity and Overweight</a></p>
+                    <p><a href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html" target="_blank">CDC: BMI Information</a></p>
+                    <p><a href="https://www.nhs.uk/common-health-questions/lifestyle/what-is-the-body-mass-index-bmi/" target="_blank">NHS: Understanding BMI</a></p>
+                    <p><a href="https://www.medicalnewstoday.com/articles/what-is-the-body-mass-index-bmi" target="_blank">Medical News Today: BMI Guide</a></p>
+                </ul>
+            </div>
+
+            <div class="button-container">
+                <a href="index.html">Find Your BMI</a>
+            </div>
+        </div>
+
+        <img src="bmiFormula.jpg" alt="Right Image" class="side-image right">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
